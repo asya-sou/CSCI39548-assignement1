@@ -27,3 +27,9 @@ img { /*set image style*/
 	display block; /*lock element with auto center thru auto l/r margins*/
 	width 60%;
 }
+
+#leaving_kisa {
+	color: red;
+	font-family: "Copperplate", fantasy;
+	text-decoration: line-through;
+}
