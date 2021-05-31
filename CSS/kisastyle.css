@@ -1,29 +1,35 @@
 body { /*set body styles*/
-	font-family: "Lucida Console", monospace;
+	font-family: "Lucida Handwriting", cursive;
 	background-color:  black;
 	color: white; /*text color*/
 	text-align: center;
 }
 
 a:link { /*set unvisited link style */
-	text-decoration: none;
-	color: #3399ff; /*darker blue*/
+	text-decoration: underline;
+	color: grey; /*darker blue*/
 }
 
 a:visited { /*set visited link style */
 	text-decoration: none;
-	color: #cce6ff; /*lighter blue*/
+	color: grey; /*lighter blue*/
 }
 
 a:hover { /*set hover link style */
 	text-decoration: underline;
-	color: #3399ff; /*darker blue*/
+	color: grey; /*darker blue*/
 }
 
 img { /*set image style*/
-	border-radius: 70%; /*rounded images*/
+	border-radius: 20%; /*rounded images*/
 	margin-left: auto; 
 	margin-right: auto;
 	display block; /*lock element with auto center thru auto l/r margins*/
-	width 30%;
+	width 60%;
+}
+
+#leaving_kisa {
+	color: red;
+	font-family: "Copperplate", fantasy;
+	text-decoration: line-through;
 }
