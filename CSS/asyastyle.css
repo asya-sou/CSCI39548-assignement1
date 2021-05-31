@@ -12,7 +12,7 @@ a:link { /*set unvisited link style */
 
 a:visited { /*set visited link style */
 	text-decoration: none;
-	color: cce6ff; /*lighter blue*/
+	color: #cce6ff; /*lighter blue*/
 }
 
 a:hover { /*set hover link style */
