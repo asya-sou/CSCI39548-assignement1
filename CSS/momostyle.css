@@ -1,4 +1,5 @@
 body { /*set body styles*/
+	padding-top: 30px;
 	font-family: "Courier New", monospace;
 	background-color:  chocolate;
 	color: black; /*text color*/
@@ -7,17 +8,20 @@ body { /*set body styles*/
 
 a:link { /*set unvisited link style */
 	text-decoration: none;
-	color: Green; /*darker blue*/
+	color: darkgreen; /*darker blue*/
+	font-weight: bold;
 }
 
 a:visited { /*set visited link style */
 	text-decoration: none;
-	color: MediumSeaGreen; /*lighter blue*/
+	color: darkgreen; /*lighter blue*/
+	font-weight: bold;
 }
 
 a:hover { /*set hover link style */
 	text-decoration: underline;
-	color: Green; /*darker blue*/
+	color: darkgreen; /*darker blue*/
+	font-weight: bold;
 }
 
 img { /*set image style*/
@@ -25,5 +29,19 @@ img { /*set image style*/
 	margin-left: auto; 
 	margin-right: auto;
 	display block; /*lock element with auto center thru auto l/r margins*/
-	width 30%;
+	width: 30%;
+	padding: 30px;
+
+}
+
+h1 {
+	font-family: "Copperplate", fantasy;
+}
+
+#bottom {
+	width: 98%; /*need with to align using margin auto*/
+	margin: auto; /*align center*/
+	position: absolute; /*absolute position @ bottom*/
+	bottom: 10px;
+	text-align: center;
 }
