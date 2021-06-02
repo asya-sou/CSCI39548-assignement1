@@ -1,5 +1,6 @@
 body { /*set body styles*/
 	padding-top: 10px;
+	padding-bottom:10px;
 	font-family: "Century Gothic", sans-serif;
 	background-color:  white;
 	color: black; /*text color*/
@@ -23,7 +24,7 @@ h1 {
 }
 
 .main{ /*avoid main & navbar overlay*/
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 /*----------------------------- MENU -----------------------------*/
