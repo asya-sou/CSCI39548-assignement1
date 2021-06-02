@@ -1,0 +1,82 @@
+body { /*set body styles*/
+	padding-top: 30px;
+	font-family: "Century Gothic", sans-serif;
+	background-color:  white;
+	color: black; /*text color*/
+	text-align: center;
+	margin: 0;
+}
+
+
+
+img { /*set image style*/
+	border-radius: 70%; /*rounded images*/
+	margin-left: auto; 
+	margin-right: auto;
+	display block; /*lock element with auto center thru auto l/r margins*/
+	width: 30%;
+}
+
+h1 {
+
+	font-family:  "Rockwell", serif;
+}
+
+/*----------------------------- MENU -----------------------------*/
+/*Menu that scrolls with page & tops active/hover page with a line*/
+.navbar {
+	overflow: hidden;
+	background-color: white;
+	margin: auto;
+	text-align: center;
+	
+	top: 0%;
+	width: 40%;
+}
+
+.navbar a{
+ 	display: inline-block;
+	text-align:  center;
+	list-style: none;
+
+	padding: 10px 10px;
+
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+
+	border-bottom: 3px solid transparent;
+
+}
+/*set unvisited link style 
+.navbar a:link { 
+	font-size: 24px;
+	text-decoration: none;
+	color: black;
+
+}
+*/
+
+.navbar a:visited { /*set visited link style */
+	
+	color: darkorange; 
+}
+
+.navbar a:hover { /*set hover link style */
+	border-bottom: 3px solid black;
+
+}
+
+.navbar a.active { /*set unvisited link style */
+	border-bottom: 3px solid black;
+}
+/*----------------------------- MENU END -----------------------------*/
+
+/*if bottom needed*/
+#bottom {
+	width: 98%; /*need with to align using margin auto*/
+	margin: auto; /*align center*/
+	position: absolute; /*absolute position @ bottom*/
+	bottom: 10px;
+	text-align: center;
+}
