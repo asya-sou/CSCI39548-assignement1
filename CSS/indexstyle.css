@@ -1,6 +1,4 @@
 body { /*set body styles*/
-	padding-top: 10px;
-	padding-bottom:10px;
 	font-family: "Century Gothic", sans-serif;
 	background-color:  white;
 	color: black; /*text color*/
@@ -19,12 +17,11 @@ img { /*set image style*/
 }
 
 h1 {
-
 	font-family:  "Rockwell", serif;
 }
 
 .main{ /*avoid main & navbar overlay*/
-	margin-top: 40px;
+	margin-top: 50px;
 }
 
 /*----------------------------- MENU -----------------------------*/
@@ -32,10 +29,9 @@ h1 {
 .navbar {
 	overflow: hidden;
 	background-color: white;
+	
 	margin: auto;
 	text-align: center;
-	margin-left:auto;
-	margin-right:auto;
 	
 	position: fixed;
 	top: 0%;
