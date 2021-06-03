@@ -9,7 +9,7 @@ body { /*set body styles*/
 
 
 img { /*set image style*/
-	border-radius: 70%; /*rounded images*/
+	border-radius: 100%; /*rounded images*/
 	margin-left: auto; 
 	margin-right: auto;
 	display block; /*lock element with auto center thru auto l/r margins*/
