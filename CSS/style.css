@@ -72,8 +72,8 @@ h1 {
 .team-container .pic img {
   width: 100%;
   height: auto;
-  border-radius: 50%;
-  transoform: scale(1);
+  border-radius: 100%;
+  transform: scale(1);
   transition: all 0.9s ease 0s;
 }
 
@@ -127,7 +127,7 @@ h1 {
   background: #f7f5ec;
 }
 
-@media (mad-width: 720px_ {
+@media (mad-width: 720px; {
   .container {
     flex-direction: column;
   }
