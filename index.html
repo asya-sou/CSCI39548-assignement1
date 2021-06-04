@@ -1,85 +1,65 @@
 <!DOCTYPE html> 
-
+<html>
 <head>
 	<meta name = "viewport" content ="width=device-width, initial-scale=1.0">
 	<meta charset = "UTF-8">
-	<script src="https://kit.fontawesome.com/2550a92b94.js" crossorigin="anonymous"></script>
-
+	
+    <script src="https://kit.fontawesome.com/2550a92b94.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="CSS/indexstyle.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome-.min.css">
 	<title> CSCI 39548 - Assignement 1 </title>
-	<link rel ="stylesheet" type="text/css" href="CSS/indexstyle.css">
-	<link rel ="stylesheet" type="text/css" href="CSS/style.css">
-	<title>Meet The Team</title>
 </head>
 
+
 <body>
-	<div class="navbar">
-		<h1> CSCI 39548 - Assignement 1  </h1>
-		<a href="index.html" class="active"> Home</a>
-		<a href="asya.html"> Asya</a>
-		<a href="saqifur.html"> Saqifur </a> <!-- for Saqifur to change to their pages -->
-		<a href="kisa.html"> Kisa </a><!-- for Ivan/ to change to their pages -->
-	
-	</div>
-	
-	<h1>Meet The Team</h1>
-	<!-- Container for the team -->
-	<div class="container">
-		<!-- Team Member 1 -->
-		<div class="team-container">
-			<div class="pic">
-				<img src="IMG/saqifur.jpg" alt="">
-				<!-- Content contains image of team member -->
-			</div>
-			<div class="team-name">
-				<h3 class="title">Saqifur</h3>
-				<!-- Content contains name of team member -->
-			</div>
-			<ul class="social">
-				<li><a href="#" class="fab fa-github"></a></li>
-				<!-- We can link socials here, our own personal github/linked in pages. -->
-			</ul>
-		</div>
-		
-		<!-- Team Member 2 -->
-		<div class="team-container">
-			<div class="pic">
-				<img src="IMG/anonymous.jpg" alt="">
-				<!-- Content contains image of team member #2 -->
-			</div>
-			<div class="team-name">
-				<h3 class="title">Asya</h3>
-				<!-- Content contains name of team member #2 -->
-			</div>
-			<ul class="social">
-				<li><a href="#" class="fab fa-github"></a></li>
-				<!-- We can link socials here, our own personal github/linked in pages. -->
-			</ul>
-		</div>
-		
-		<!-- Team Member 2 -->
-		<div class="team-container">
-			<div class="pic">
-				<img src="IMG/anonymous.jpg" alt="">
-				<!-- Content contains image of team member #3 -->
-			</div>
-			<div class="team-name">
-				<h3 class="title">Ivan</h3>
-				<!-- Content contains name of team member #3 -->
-			</div>
-			<ul class="social">
-				<li><a href="#" class="fab fa-github"></a></li>
-				<!-- We can link socials here, our own personal github/linked in pages. -->
-			</ul>
-		</div>
-		
+    <nav>
+        <div class="logo">CSCI 39548 - Assignment 1</div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li> <!-- Set index.html as active for CSS active design. -->
+			<li><a href="asya.html"> Asya</a></li>
+			<li><a href="saqifur.html">Saqifur</a></li>
+			<li><a href="ivan.html">Ivan</a></li>
+        </ul>
+        </nav>
+        
+    <div class="container">
+        <div class="header">
+            <h1>Meet The Team!</h1>
+        </div>
+            <div class="sub-container">
+            <div class="members">
+                <img src="IMG/saqifur.jpg" alt="">
+                <div class="name">Saqifur Rahman</div>
+                <div class="design">Major: Biochemistry & Computer Science</div>
+                <div class="about">Double majored student trying to pursue a career in medicine!</div>
 
-		
-		
-	<div class="main">
+                <div class="social-links">
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
 
-		<p>PLACEHOLDER</p>
-  
-	</div>
+            <div class="members">
+                <img src="IMG/anonymous.jpg" alt="">
+                <div class="name">Asya/Anastasia Soughou</div>
+                <div class="design">Major:</div>
+                <div class="about">Filler</div>
+        
+                <div class="social-links">
+                    <a href="#"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
+</html>
+    
 
+</body>
