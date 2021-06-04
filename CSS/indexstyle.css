@@ -9,7 +9,7 @@ nav{
   display: flex;
   height: 80px;
   width: 100%;
-  background: #1b1b1b;
+  background: #8FAC5A;
   align-items: center;
   justify-content: space-between;
   padding: 0 50px 0 100px;
@@ -96,6 +96,7 @@ input[type="checkbox"]{
   nav ul li a:hover{
     background: none;
     color: cyan;
+    border-bottom: 2px solid black;
   }
 }
 .content{
@@ -147,7 +148,7 @@ input[type="checkbox"]{
 
 .members:hover{
   background: rgb(118, 177, 214);
-  border-radius: 12px;
+  border-radius: 25px;
 }
 
 .members img{
@@ -185,7 +186,7 @@ input[type="checkbox"]{
 }
 
 .social-links a:hover{
-  transform: scale(1.5)
+  transform: scale(1.75)
 }
 
 .social-links a i{
