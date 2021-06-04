@@ -5,3 +5,5 @@ GROUP:
 Asya/Anastasia Soughou ( asya-sou ) 
 Saqifur Rahman ( saqifur-rahman )
 Ivan Laquon Hinson ( ivan-hinson )
+
+Link: https://asya-sou.github.io/CSCI39548-assignement1/
