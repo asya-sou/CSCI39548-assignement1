@@ -10,7 +10,7 @@
 /*--------------- NAVIGATION BAR ---------------*/
 nav{
   display: flex;
-  height: 80px;
+  height: 70px;
   background: #8FAC5A;
   align-items: center;
   justify-content: space-between;
@@ -149,7 +149,7 @@ input[type="checkbox"]{
 /*--------------- CONTAINERS ---------------*/
 /* container (body sections) styles*/
 .containerTOP{
-  margin-top: 80px; /*prevent top container overlap with menu*/
+  margin-top: 70px; /*prevent top container overlap with menu*/
   text-align: center;
   background: #f5f5f5;
 }
