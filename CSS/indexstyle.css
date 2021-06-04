@@ -66,18 +66,23 @@ input[type="checkbox"]{
   display: none;
 }
 
+/*--------------- DEVICE SCALING ---------------*/
+
 @media (max-width: 1000px){
   nav{
     padding: 0 40px 0 50px;
   }
 }
+
 @media (max-width: 920px) {
   nav .menu-btn i{
     display: block;
   }
+  
   #click:checked ~ .menu-btn i:before{
     content: "\f00d";
   }
+
   nav ul{
     position: fixed;
     top: 80px;
@@ -89,13 +94,16 @@ input[type="checkbox"]{
     display: block;
     transition: all 0.3s ease;
   }
+
   #click:checked ~ ul{
     left: 0;
   }
+
   nav ul li{
     width: 100%;
     margin: 40px 0;
   }
+
   nav ul li a{
     width: 100%;
     margin-left: -100%;
@@ -106,6 +114,7 @@ input[type="checkbox"]{
   #click:checked ~ ul li a{
     margin-left: 0px;
   }
+
   nav ul li a.active,
   nav ul li a:hover{
     background: none;
@@ -136,6 +145,11 @@ input[type="checkbox"]{
 .container{
   text-align: center;
   background: #f5f5f5;
+}
+
+.container2 {
+  text-align: center;
+  background: #ffffff;
 }
 
 .header{
@@ -172,6 +186,7 @@ input[type="checkbox"]{
   border-radius: 25px;
 }
 
+/*team member photographs*/
 .members img{
   border-radius: 70%; /*oval*/
   width: 190px;
@@ -185,7 +200,8 @@ input[type="checkbox"]{
   text-transform: uppercase;
 }
 
-.design{
+/*cursive text design*/
+.cursive{
   font-style: italic;
   color: #888;
 }
@@ -195,6 +211,8 @@ input[type="checkbox"]{
   font-weight: lighter;
   color: #4e4e4e;
 }
+
+/*--- social links ---*/
 
 .social-links{
   margin: 14px;
@@ -214,6 +232,8 @@ input[type="checkbox"]{
 .social-links a i{
   color: rgb(30, 44, 172);
 }
+
+/*--- device scaling for members ---*/
 
 @media screen and (max-width: 600px){
   .members{
