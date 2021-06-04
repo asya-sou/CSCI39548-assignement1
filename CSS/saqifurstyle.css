@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+*{ /* Sets margin/padding/font for page */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 } 
-nav{
+
+nav{ /* Properties set for nav menu */
   display: flex;
   height: 80px;
   width: 100%;
@@ -15,11 +16,13 @@ nav{
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
 }
-nav .logo{
+
+nav .logo{ /* Left-aligned logo settings */
   color: #fff;
   font-size: 35px;
   font-weight: 600;
 }
+
 nav ul{
   display: flex;
   flex-wrap: wrap;
@@ -43,7 +46,7 @@ nav ul li a.active{
   background: #fff;
 }
 
-nav ul li a:hover{
+nav ul li a:hover{ /* Hover settings set an underlined style for users to visualize */
   color: #111;
   background: #fff;
   border-bottom: 2px solid black;
@@ -97,13 +100,16 @@ input[type="checkbox"]{
   #click:checked ~ ul li a{
     margin-left: 0px;
   }
-  nav ul li a.active,
+  
+  nav ul li a.active, /* Active & hover settings for nav menu */
   nav ul li a:hover{
     background: none;
     color: cyan;
   }
 }
 
+
+/* Previous code commented out, prevents text from being formatted properly. */
 /*
 .content{
   position: absolute;
@@ -123,7 +129,7 @@ input[type="checkbox"]{
   font-size: 34px;
 }
 
-.requiredcontent div{
+.requiredcontent div{ /* Required content for assignment 1, pads top to prevent overlap from the header */
   font-size: 20px;
   font-weight: 700;
   padding-top: 20px;
@@ -141,21 +147,21 @@ body{
   box-sizing: border-box;
 }
 
-.column1{
+.column1{ /* Column 1 set float to left with padding to prevent overlap */
   float: left;
   width: 30%;
   padding: 5px;
   padding-top: 50px;
 }
 
-.column2{
+.column2{ /* Column 2 follows column 1 to horizontally align images */
   float: left;
   width: 30%;
   padding: 5px;
   padding-top: 50px;
 }
 
-.row::after{
+.row::after{ /* Removes properties of row */
   content: "";
   display: table;
 }
