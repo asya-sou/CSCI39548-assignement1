@@ -1,10 +1,32 @@
-/*originally made for Momo page, butr taken over for Asya's page*/
+
+/*----------------------------- BODy -----------------------------*/
 
 body { /*set body styles*/
-	padding-top: 30px;
 	background-color:  chocolate;
 	color: black; /*text color*/
 	text-align: center;
+}
+/*----------------------------- BODY CONTAINERS -----------------------------*/
+
+.main {
+  margin-top: 150px; /*prevent top container overlap with menu*/
+  text-align: center;
+}
+
+.sub-main {
+	max-height: 30%;
+}
+/*----------------------------- GENERAL -----------------------------*/
+
+
+img { /*set image style*/
+	border-radius: 70%; /*rounded images*/
+	margin-left: auto; 
+	margin-right: auto;
+	display block; /*lock element with auto center thru auto l/r margins*/
+	width: 25%;
+	padding: 30px;
+
 }
 
 h1 {
@@ -16,6 +38,7 @@ h3 {
 	font-family: "Courier New", monospace;
 
 }
+
 /*----------------------------- MENU -----------------------------*/
 /*Menu that scrolls with page & tops active/hover page with a line*/
 .navbar {
@@ -23,9 +46,11 @@ h3 {
 	background-color:transparent;
 	margin: auto;
 	text-align: center;
-	
-	top: 0%;
-	width: 40%;
+	height: 150px.px;
+	/*fixed menu top screen*/
+	position: fixed;
+	width: 100%;
+	top: 0;
 }
 
 .navbar a{
@@ -43,14 +68,6 @@ h3 {
 	border-bottom: 3px solid transparent;
 
 }
-/*set unvisited link style 
-.navbar a:link { 
-	font-size: 24px;
-	text-decoration: none;
-	color: black;
-
-}
-*/
 
 .navbar a:visited { /*set visited link style */
 	
@@ -67,42 +84,35 @@ h3 {
 }
 /*----------------------------- MENU END -----------------------------*/
 
-#bottom a:link { /*set unvisited link style */
-	text-decoration: none;
-	color: darkgreen; /*darker blue*/
-	font-weight: bold;
-}
-
-#bottom a:visited { /*set visited link style */
-	text-decoration: none;
-	color: darkgreen; /*lighter blue*/
-}
-
-#bottom a:hover { /*set hover link style */
-	text-decoration: underline;
-	color: darkgreen; /*darker blue*/
-	font-weight: bold;
-}
-
-img { /*set image style*/
-	border-radius: 70%; /*rounded images*/
-	margin-left: auto; 
-	margin-right: auto;
-	display block; /*lock element with auto center thru auto l/r margins*/
-	width: 25%;
-	padding: 30px;
-
-}
-
-
-#bottom {
+.footer {
+	margin: 50px;
 	width: 98%; /*need with to align using margin auto*/
 	margin: auto; /*align center*/
+	margin-top: 10px;
 	position: absolute; /*absolute position @ bottom*/
 	bottom: 10px;
 	text-align: center;
 	font-family: "Copperplate", fantasy;
 	font-size: 150%;
+}
 
+
+.footer a:link { /*set unvisited link style */
+	text-decoration: none;
+	color: darkgreen; /*darker blue*/
+	font-weight: bold;
 
 }
+
+.footer a:visited { /*set visited link style */
+	text-decoration: none;
+	color: darkgreen; /*lighter blue*/
+}
+
+.footer a:hover { /*set hover link style */
+	text-decoration: underline;
+	color: darkgreen; /*darker blue*/
+	font-weight: bold;
+}
+
+

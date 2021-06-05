@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
 <html>
 <head>
+    <!--meta-->
 	<meta name = "viewport" content ="width=device-width, initial-scale=1.0">
 	<meta charset = "UTF-8">
 	
@@ -8,11 +9,11 @@
     
 	
     <!-- Linking relevant stylesheets for favicons/fonts/CSS -->
-    <link rel="stylesheet" href="css/hover-min.css">
     <link rel="stylesheet" type="text/css" href="CSS/indexstyle.css">
-    <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome-.min.css">
+
+    <!--page title-->
 	<title> CSCI 39548 - Assignement 1 </title>
 </head>
 
@@ -70,8 +71,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-------------------------------------------------- 1st Container (Meet the team) END -------------------------------------------------->
+    </div> <!--1st cont end-->
 
 
     <!-------------------------------------------------- 2ND CONTAINER (Path to Knowledge) -------------------------------------------------->
@@ -85,48 +85,55 @@
 
     <!-------------------------------------------------- FOOTER  -------------------------------------------------->
     <div class="footer">
-    <div class="row">
-        <div class="row">
 
-            <div class="column">
-                <h4>CSCI 39548</h4>
+        <div class="row"> <!--formatting override-->
 
-                <ul style="list-style-type:none;">
-                    <li><a href="https://mtlynch3.github.io/WebDevSu21/">Syllabus</a></li> <!-- Set index.html as active for CSS active design. -->
-                    <li><a href="https://git-scm.com/book/en/v2"> Git Textbook</a></li>
-                    <li><a href="https://eloquentjavascript.net/">Java Textbook</a></li>
-                    <li><a href="https://javascript.info/">Java Tutorial</a></li>
+            <div class="row">
 
-                </ul>
+            <!-- column 1-->
+                <div class="column">
+                    <h4>CSCI 39548</h4>
+                        <ul style="list-style-type:none;">
+                            <li><a href="https://mtlynch3.github.io/WebDevSu21/">Syllabus</a></li> <!-- Set index.html as active for CSS active design. -->
+                            <li><a href="https://git-scm.com/book/en/v2"> Git Textbook</a></li>
+                            <li><a href="https://eloquentjavascript.net/">Java Textbook</a></li>
+                            <li><a href="https://javascript.info/">Java Tutorial</a></li>
+
+                        </ul>
+                </div>
+
+            <!-- column 2-->
+                <div class="column">
+                    <h4>HUNTER</h4>
+                        <ul style="list-style-type:none;">
+                            <li><a href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fbbhosted.cuny.edu%252Fwebapps%252Flogin%252Fnoportal">CUNY BB</a></li> <!-- Set index.html as active for CSS active design. -->
+                            <li><a href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fhome.cunyfirst.cuny.edu%252Fpsp%252Fcnyepprd%252FEMPLOYEE%252FEMPL%252Fh%252F%3Ftab%253DDEFAULT"> CUNY First</a></li>
+                            <li><a href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fdegreeworks.cuny.edu%252FDashboard_hc%252Fdashboard">Degree Works</a></li>
+                            <li><a href="http://catalog.hunter.cuny.edu/preview_program.php?catoid=43&poid=10162"> CS BA Hunter Catalog 21'</a></li>
+                        </ul>
+                </div>
+
+            <!-- column 3-->
+                <div class="column">
+                    <h4>CSCI Resources</h4>
+                        <ul style="list-style-type:none;">
+                            <li><a href="https://mostly-adequate.gitbook.io/mostly-adequate-guide/">JavaScript Textbook 2</a></li> <!-- Set index.html as active for CSS active design. -->
+                            <li><a href="https://jsbeginners.com/javascript-projects-for-beginners/"> JavaScript Practice Tasks</a></li>
+                            <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+                        </ul>
+                </div>
+
+            </div> <!--row END-->
+
+            <div class="social-links">
+
+                <a href="https://www.facebook.com/OfficialDogecoin/"><i class="fa fa-facebook" ></i></a>
+                <a href="https://twitter.com/elonmusk?ref_src=asya-sou.github.io/CSCI39548-assignement1/"><i class="fa fa-twitter"></i></a>
+
             </div>
 
-            <div class="column">
-                <h4>HUNTER</h4>
-                <ul style="list-style-type:none;">
-                    <li><a href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fbbhosted.cuny.edu%252Fwebapps%252Flogin%252Fnoportal">CUNY BB</a></li> <!-- Set index.html as active for CSS active design. -->
-                    <li><a href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fhome.cunyfirst.cuny.edu%252Fpsp%252Fcnyepprd%252FEMPLOYEE%252FEMPL%252Fh%252F%3Ftab%253DDEFAULT"> CUNY First</a></li>
-                    <li><a href="https://ssologin.cuny.edu/cuny.html?resource_url=https%3A%2F%2Fdegreeworks.cuny.edu%252FDashboard_hc%252Fdashboard">Degree Works</a></li>
-                    <li><a href="http://catalog.hunter.cuny.edu/preview_program.php?catoid=43&poid=10162"> CS BA Hunter Catalog 21'</a></li>
-                </ul>
-            </div>
+        </div> <!-- override row END-->
 
-            <div class="column">
-                <h4>CSCI Resources</h4>
-                <ul style="list-style-type:none;">
-                    <li><a href="https://mostly-adequate.gitbook.io/mostly-adequate-guide/">JavaScript Textbook 2</a></li> <!-- Set index.html as active for CSS active design. -->
-                    <li><a href="https://jsbeginners.com/javascript-projects-for-beginners/"> JavaScript Practice Tasks</a></li>
-                    <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="social-links">
-
-            <a href="https://www.facebook.com/OfficialDogecoin/"><i class="fa fa-facebook" ></i></a>
-            <a href="https://twitter.com/elonmusk?ref_src=asya-sou.github.io/CSCI39548-assignement1/"><i class="fa fa-twitter"></i></a>
-
-        </div>
-    </div>
     </div> <!--footer END-->
 
 </body>
