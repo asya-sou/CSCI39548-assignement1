@@ -202,7 +202,7 @@ input[type="checkbox"]{
 .members img{
   border-radius: 70%; /*oval*/
   width: 190px;
-  height: 215px;
+  height: 225px;
 }
 
 .name{
@@ -224,7 +224,7 @@ input[type="checkbox"]{
   color: #4e4e4e;
 }
 
-/*--- social links ---*/
+/*------ SOCIAL LINKS -------*/
 
 .social-links{
   margin: 14px;
@@ -256,17 +256,25 @@ input[type="checkbox"]{
 
 /*--------------- FOOTER ---------------*/
 .footer{
+  float: center;
   text-align: center;
+  padding-top: 10px;
   background: rgba(143, 172, 90, 0.3) /*menu rgb color at 30% opacity*/
-
 }
-
 
 
 .column {
-  margin: 10px;
-  padding: 22px;
-  max-width: 30%;
-  text-align: left;
+  float: left;
+  padding: 10px;
+  width: 33.33%;
+  text-align: center;
+  box-sizing: border-box;
+
 }
 
+/* Clear floats */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
