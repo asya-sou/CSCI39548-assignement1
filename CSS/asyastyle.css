@@ -43,7 +43,6 @@ h3 {
 /*Menu that scrolls with page & tops active/hover page with a line*/
 .navbar {
 	overflow: hidden;
-	background-color:transparent;
 	margin: auto;
 	text-align: center;
 	height: 150px.px;
@@ -51,6 +50,7 @@ h3 {
 	position: fixed;
 	width: 100%;
 	top: 0;
+	background-color:  chocolate;
 }
 
 .navbar a{
